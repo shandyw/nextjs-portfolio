@@ -29,6 +29,7 @@ const sourceSerif4 = Source_Serif_4({
  * Core site metadata with Open Graph foundation for social sharing.
  * Individual pages can override/extend these values.
  */
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://shandyward.com"),
   title: {
@@ -36,21 +37,56 @@ export const metadata: Metadata = {
     default: "Shandy Ward - Senior Web Developer & Designer",
   },
   description:
-    "Senior frontend engineer specializing in Next.js, React, TypeScript, and high-performance web experiences.",
+    "Senior web developer specializing in Wordpress, Next.js, React, TypeScript, and high-performance web experiences.",
   creator: "Shandy Ward",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://shandyward.com",
     title: "Shandy Ward - Senior Web Developer & Designer",
     description:
-      "Senior frontend engineer specializing in Next.js, React, TypeScript, and high-performance web experiences.",
+      "Senior web developer specializing in Wordpress, Next.js, React, TypeScript, and high-performance web experiences.",
     siteName: "Shandy Ward",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Shandy Ward — Senior Web Developer & Designer",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     creator: "@shandyward",
+    images: ["/opengraph-image"],
   },
+  icons: {
+    apple: [
+      {
+        url: "/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+    icon: [
+      {
+        url: "/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+    ],
+  },
+
+  manifest: "/site.webmanifest",
 };
 
 /**

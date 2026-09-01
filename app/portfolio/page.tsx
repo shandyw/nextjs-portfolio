@@ -10,6 +10,15 @@ import { getAllPortfolioProjects } from "@/lib/portfolio";
 export const metadata: Metadata = {
   title: "Portfolio",
   description: "Selected projects and case studies showcasing my work.",
+  alternates: {
+    canonical: "/portfolio",
+  },
+  openGraph: {
+    url: "/portfolio",
+    title: "Portfolio | Shandy Ward",
+    description: "Selected projects and case studies showcasing my work.",
+    images: ["/opengraph-image"],
+  },
 };
 
 export default async function PortfolioPage() {

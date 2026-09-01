@@ -11,6 +11,16 @@ export const metadata: Metadata = {
   title: "Blog",
   description:
     "Thoughts and insights on web development, design systems, and frontend engineering.",
+  alternates: {
+    canonical: "/blog",
+  },
+  openGraph: {
+    url: "/blog",
+    title: "Blog | Shandy Ward",
+    description:
+      "Thoughts and insights on web development, design systems, and frontend engineering.",
+    images: ["/opengraph-image"],
+  },
 };
 
 /**

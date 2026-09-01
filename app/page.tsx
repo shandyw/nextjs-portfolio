@@ -18,6 +18,16 @@ export const metadata: Metadata = {
   title: "Home",
   description:
     "Creative, experienced, technically sharp. Senior web developer specializing in Wordpress, Next.js, React, and high-performance web experiences.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    url: "/",
+    title: "Shandy Ward - Senior Web Developer & Designer",
+    description:
+      "Creative, experienced, technically sharp. Senior web developer specializing in Wordpress, Next.js, React, and high-performance web experiences.",
+    images: ["/opengraph-image"],
+  },
 };
 
 /**
