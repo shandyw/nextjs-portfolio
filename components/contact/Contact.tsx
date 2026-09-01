@@ -396,7 +396,7 @@ export function Contact() {
                     className="group/arrow btn-primary inline-flex min-h-14 items-center gap-8 rounded-none bg-primary px-6 font-label text-label-sm uppercase text-text no-underline hover:bg-text hover:text-background focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:cursor-wait disabled:opacity-60"
                   >
                     {status === "submitting" ? "Sending…" : "Send message"}
-                    <span aria-hidden="true" class="inline-block transition-transform duration-200 group-hover/arrow:translate-x-1">→</span>
+                    <span aria-hidden="true" className="inline-block transition-transform duration-200 group-hover/arrow:translate-x-1">→</span>
                   </button>
                 </div>
               </form>
