@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title">
+  <title id="title">Abstract commerce rebuild project artwork</title>
+  <rect width="1200" height="900" fill="#FEB300"/>
+  <rect x="140" y="120" width="920" height="660" rx="24" fill="#FFFDF5" stroke="#151515" stroke-width="16"/>
+  <path d="M140 250H1060M260 185H285M320 185H345M380 185H405" stroke="#151515" stroke-width="16" stroke-linecap="round"/>
+  <rect x="240" y="350" width="300" height="290" fill="#FF5E6C"/>
+  <path d="M640 390H940M640 475H880M640 560H820" stroke="#151515" stroke-width="20" stroke-linecap="round"/>
+</svg>

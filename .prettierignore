@@ -1,0 +1,6 @@
+.next
+node_modules
+package-lock.json
+public/graphics/hero/hero-portrait.svg
+components/hero/HeroPortrait.tsx
+

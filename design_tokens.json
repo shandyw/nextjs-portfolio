@@ -1,0 +1,435 @@
+{
+  "name": {
+    "$type": "string",
+    "$value": "Shandy Ward Portfolio"
+  },
+  "colors": {
+    "background": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [1.0, 0.961, 0.843],
+        "hex": "#FFF5D7"
+      }
+    },
+    "surface": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [1.0, 0.667, 0.671],
+        "hex": "#FFAAAB"
+      }
+    },
+    "primary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [1.0, 0.369, 0.424],
+        "hex": "#FF5E6C"
+      }
+    },
+    "text": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [0.082, 0.082, 0.082],
+        "hex": "#151515"
+      }
+    },
+    "accent": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [0.996, 0.702, 0.0],
+        "hex": "#FEB300"
+      }
+    },
+    "white": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [1.0, 0.992, 0.961],
+        "hex": "#FFFDF5"
+      }
+    }
+  },
+  "typography": {
+    "display": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": {
+          "value": 72,
+          "unit": "px"
+        },
+        "fontWeight": 800,
+        "lineHeight": {
+          "value": 72,
+          "unit": "px"
+        },
+        "letterSpacing": {
+          "value": -0.04,
+          "unit": "em"
+        }
+      }
+    },
+    "headline-lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": {
+          "value": 48,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "lineHeight": {
+          "value": 52,
+          "unit": "px"
+        },
+        "letterSpacing": {
+          "value": -0.03,
+          "unit": "em"
+        }
+      }
+    },
+    "headline-md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": {
+          "value": 32,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "lineHeight": {
+          "value": 38,
+          "unit": "px"
+        },
+        "letterSpacing": {
+          "value": -0.02,
+          "unit": "em"
+        }
+      }
+    },
+    "title-lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": {
+          "value": 22,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "lineHeight": {
+          "value": 28,
+          "unit": "px"
+        }
+      }
+    },
+    "body-lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Source Serif 4",
+        "fontSize": {
+          "value": 20,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "value": 32,
+          "unit": "px"
+        }
+      }
+    },
+    "body-md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Source Serif 4",
+        "fontSize": {
+          "value": 18,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "value": 28,
+          "unit": "px"
+        }
+      }
+    },
+    "label-md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "lineHeight": {
+          "value": 22,
+          "unit": "px"
+        },
+        "letterSpacing": {
+          "value": 0.01,
+          "unit": "em"
+        }
+      }
+    },
+    "label-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "lineHeight": {
+          "value": 20,
+          "unit": "px"
+        },
+        "letterSpacing": {
+          "value": 0.02,
+          "unit": "em"
+        }
+      }
+    }
+  },
+  "rounded": {
+    "subtle": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "DEFAULT": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": {
+        "value": 9999,
+        "unit": "px"
+      }
+    }
+  },
+  "spacing": {
+    "base": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      }
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      }
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      }
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": {
+        "value": 40,
+        "unit": "px"
+      }
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": {
+        "value": 64,
+        "unit": "px"
+      }
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": {
+        "value": 96,
+        "unit": "px"
+      }
+    },
+    "gutter": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      }
+    },
+    "margin": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      }
+    }
+  },
+  "shadows": {
+    "editorial": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "#1515150D",
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": "#15151514",
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 8,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 24,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      ]
+    }
+  },
+  "motion": {
+    "duration-fast": {
+      "$type": "dimension",
+      "$value": {
+        "value": 150,
+        "unit": "ms"
+      }
+    },
+    "duration-default": {
+      "$type": "dimension",
+      "$value": {
+        "value": 250,
+        "unit": "ms"
+      }
+    },
+    "duration-slow": {
+      "$type": "dimension",
+      "$value": {
+        "value": 500,
+        "unit": "ms"
+      }
+    },
+    "easing-editorial": {
+      "$type": "cubicBezier",
+      "$value": [0.22, 1, 0.36, 1]
+    }
+  },
+  "layout": {
+    "max-width-editorial": {
+      "$type": "dimension",
+      "$value": {
+        "value": 1440,
+        "unit": "px"
+      }
+    },
+    "max-width-copy": {
+      "$type": "dimension",
+      "$value": {
+        "value": 720,
+        "unit": "px"
+      }
+    }
+  },
+  "components": {
+    "button-primary": {
+      "backgroundColor": "{colors.text}",
+      "textColor": "{colors.background}",
+      "accentColor": "{colors.primary}",
+      "typography": "{typography.label-md}",
+      "rounded": "{rounded.DEFAULT}",
+      "paddingBlock": "{spacing.sm}",
+      "paddingInline": "{spacing.md}"
+    },
+    "button-primary-hover": {
+      "backgroundColor": "{colors.background}",
+      "textColor": "{colors.text}",
+      "borderColor": "{colors.text}"
+    },
+    "button-secondary": {
+      "backgroundColor": "transparent",
+      "textColor": "{colors.text}",
+      "borderColor": "{colors.text}",
+      "typography": "{typography.label-md}",
+      "rounded": "{rounded.DEFAULT}",
+      "paddingBlock": "{spacing.sm}",
+      "paddingInline": "{spacing.md}"
+    },
+    "card": {
+      "backgroundColor": "{colors.background}",
+      "textColor": "{colors.text}",
+      "rounded": "{rounded.DEFAULT}",
+      "shadow": "{shadows.editorial}",
+      "padding": "{spacing.md}"
+    },
+    "card-feature": {
+      "backgroundColor": "{colors.surface}",
+      "textColor": "{colors.text}",
+      "rounded": "{rounded.DEFAULT}",
+      "padding": "{spacing.lg}"
+    },
+    "input-field": {
+      "backgroundColor": "{colors.background}",
+      "textColor": "{colors.text}",
+      "borderColor": "{colors.text}",
+      "typography": "{typography.body-md}",
+      "rounded": "{rounded.DEFAULT}",
+      "padding": "{spacing.sm}"
+    },
+    "badge": {
+      "backgroundColor": "{colors.accent}",
+      "textColor": "{colors.text}",
+      "typography": "{typography.label-sm}",
+      "rounded": "{rounded.full}",
+      "padding": "{spacing.xs}"
+    }
+  },
+  "accessibility": {
+    "$type": "string",
+    "$value": "WCAG 2.2 AA is the production conformance baseline; APCA is an additional design constraint. Use #151515 for normal readable text. Do not use #FF5E6C as normal-size text on #FFF5D7 and do not use white text on #FF5E6C. Coral is primarily for large display emphasis, graphic shapes, borders, focus accents, and decorative interaction states. Pair #151515 with #FFAAAB and #FEB300. Do not communicate state by color alone."
+  },
+  "darkMode": {
+    "$type": "string",
+    "$value": "out-of-scope"
+  }
+}

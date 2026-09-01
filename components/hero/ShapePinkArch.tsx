@@ -1,0 +1,24 @@
+import type { SVGProps } from "react";
+
+export function ShapePinkArch({
+  className = "",
+  ...props
+}: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      {...props}
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 420 420"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path
+        d="M420 420H0V210C0 94 94 0 210 0s210 94 210 210v210Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
+
+export default ShapePinkArch;

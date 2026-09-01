@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="180" viewBox="0 0 260 180">
+    <g id="yellow-sun-waves">
+        <g id="waves">
+            <path id="Path" fill="none" stroke="#FEB300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M 31 47 C 67 26 98 26 133 47 C 168 67 199 67 235 47"/>
+            <path id="path1" fill="none" stroke="#FEB300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M 30 72 C 67 52 99 52 134 72 C 168 92 199 92 235 72"/>
+            <path id="path2" fill="none" stroke="#FEB300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M 30 98 C 67 78 99 78 134 98 C 168 118 199 118 235 98"/>
+            <path id="path3" fill="none" stroke="#FEB300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M 31 124 C 67 103 98 103 133 124 C 168 144 199 144 235 124"/>
+        </g>
+    </g>
+</svg>

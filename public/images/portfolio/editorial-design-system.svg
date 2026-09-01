@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title">
+  <title id="title">Abstract editorial design system project artwork</title>
+  <rect width="1200" height="900" fill="#FFF5D7"/>
+  <path d="M0 180H1200M0 450H1200M0 720H1200M300 0V900M760 0V900" stroke="#151515" stroke-width="10"/>
+  <circle cx="530" cy="315" r="175" fill="#FF5E6C"/>
+  <path d="M850 155L1050 355L850 555L650 355Z" fill="#FEB300" stroke="#151515" stroke-width="14"/>
+  <path d="M95 790L300 585L505 790" fill="none" stroke="#151515" stroke-width="18"/>
+</svg>
