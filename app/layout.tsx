@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Source_Serif_4 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 /**
@@ -117,7 +118,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={sourceSerif4.variable}>
       <head />
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
